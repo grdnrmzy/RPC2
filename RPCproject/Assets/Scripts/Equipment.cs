@@ -15,7 +15,6 @@ public class Equipment : Item
     public int armorModifier;       // Increase/decrease in armor
     public int damageModifier;      // Increase/decrease in damage
     public SkinnedMeshRenderer mesh;
-    public EquipmentManager.MeshBlendShape[] coveredMeshRegions;
 
     // When pressed in inventory
     public override void Use()

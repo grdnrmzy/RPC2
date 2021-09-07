@@ -1,0 +1,3 @@
+- [ ] can't pick up the item;
+- [ ] 2 audio listeners;
+- [ ]

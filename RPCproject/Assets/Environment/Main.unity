@@ -3395,6 +3395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1692605774}
   - component: {fileID: 1692605773}
+  - component: {fileID: 1692605775}
   m_Layer: 0
   m_Name: Player Camera
   m_TagString: Untagged
@@ -3459,6 +3460,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1692605775
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692605772}
+  m_Enabled: 0
 --- !u!1001 &1725521215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3564,7 +3573,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728564186}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1728564188
 Behaviour:
   m_ObjectHideFlags: 0
@@ -3585,7 +3594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 169bb42dab784264793f82feacde664a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 607406314}
   offset: {x: 0, y: 0, z: 0}
   zoomSpeed: 4
   minZoom: 5

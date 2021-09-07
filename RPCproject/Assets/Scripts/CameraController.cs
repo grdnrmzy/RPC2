@@ -30,7 +30,7 @@ namespace Assets.Scripts
 
         private void LateUpdate()
         {
-            transform.position = target.position + offset * currentZoom;
+            transform.position = target.position - offset * currentZoom;
             transform.LookAt(target.position + Vector3.up * pitch);
 
             transform.RotateAround(target.position, Vector3.up, currentYaw);
